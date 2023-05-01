@@ -1,0 +1,20 @@
+.header-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-btn {
+    padding: .4rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    color: white;
+    background-color: var(--main-color);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+.main-btn:hover {
+    background-color: var(--main-color-light);
+}
